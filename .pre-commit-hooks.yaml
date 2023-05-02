@@ -1,0 +1,7 @@
+- id: only-relative-import
+  name: only_relative_import
+  description: "Linter to only allow relative imports! :sweat_smile:"
+  entry: only-relative-import
+  language: python
+  types: [python]
+  require_serial: true
