@@ -6,7 +6,7 @@ from typing import List
 
 from libcst.codemod import CodemodContext, parallel_exec_transform_with_prettyprint
 
-from only_relative_import.main import OnlyRelativeImportCommand
+from .main import OnlyRelativeImportCommand
 
 app = Typer(help="Only allow relative imports! 😅")
 
